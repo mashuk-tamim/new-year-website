@@ -48,6 +48,13 @@ body {
 }
 
 /* previous year section started */
+
+.previous-section{
+    width: 1140px;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+}
 .previous-container {
     display: flex;
     justify-content: space-evenly;
@@ -91,7 +98,11 @@ body {
 
 .myplans {
     /* border: 2px solid; */
-    margin-top: 150px;
+    /* margin-top: 200px;
+    margin-bottom: 200px; */
+    width: 1140px;
+    display: block;
+    margin: auto;
 }
 
 .section-title {
@@ -105,15 +116,16 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* border: 2px solid; */
+    border: 2px solid;
     padding-top: 50px;
+    /* width: 1140px; */
 }
 
-/* .plan-items {
+.plan-items {
     align-items: center;
     border: 2px solid;
 
-} */
+}
 
 .plan-icon {
     align-items: center;
