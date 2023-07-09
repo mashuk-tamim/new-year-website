@@ -11,6 +11,7 @@ body {
     background-image: url('../images/banner/banner2.png');
     /* border: 2px solid grey; */
     background-repeat: no-repeat;
+    /* background-size: cover; */
     display: flex;
     /* justify-content: right; */
     text-align: right;
@@ -49,12 +50,13 @@ body {
 
 /* previous year section started */
 
-.previous-section{
+.previous-section {
     width: 1140px;
     display: block;
     margin: auto;
     margin-bottom: 150px;
 }
+
 .previous-container {
     display: flex;
     justify-content: space-evenly;
@@ -116,14 +118,14 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid;
+    /* border: 2px solid; */
     padding-top: 50px;
     /* width: 1140px; */
 }
 
 .plan-items {
     align-items: center;
-    border: 2px solid;
+    /* border: 2px solid; */
 
 }
 
@@ -147,3 +149,37 @@ body {
     font-weight: 500;
 }
 
+/* message section start */
+
+.message {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    /* border: 2px solid grey; */
+    width: 1140px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    margin-top: 130px;
+    
+}
+
+.message-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 64px;
+    padding-top: 60px;
+}
+
+.message-button {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border: 0;
+    margin-left: 64px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+}
